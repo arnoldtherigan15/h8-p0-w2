@@ -1,0 +1,95 @@
+1. Newton Second Law
+
+Algoritma
+1. Simpan nilai 600 di variabel massa
+2. Simpan nilai 2 di variabel percepatan
+3. Lakukan perkalian variabel massa dan percepatan
+4. Simpan hasil perkalian tersebut di variabel resultanGaya
+5. Tampilkan resultanGaya
+
+Pseudocode
+STORE 'massa' with 600
+STORE 'percepatan' with 2
+STORE 'resultanGaya' with any value
+CALCULATE 'massa' TIMES 'percepatan'
+STORE 'resultanGaya' to the result of calculation
+DISPLAY 'resultanGaya'
+-------------------------------------------------------------------------------------------------------------------------------
+2. Tahun Kabisat
+
+Algoritma
+(CARA 1)
+1. Simpan nilai berapapun di variabel 'tahun'
+2. Simpan nilai 4 di variabel 'bagi4'
+3. Simpan nilai 100 di variabel 'bagi100'
+4. Simpan nilai 400 di variabel 'bagi400'
+5. Apabila 'tahun' habis dibagi 4 dan tidak habis dibagi 100 maka lanjut ke step 7 .bila tidak lanjut ke step 6
+6. Apabila 'tahun' habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400 maka lanjut ke step 7. bila tidak lanjut ke step 8
+7. Tampilkan tahun ini adalah tahun kabisat
+8. Tampilkan tahun ini bukan tahun kabisat
+
+Pseudocode
+(CARA 1)
+STORE 'tahun' with any value
+STORE 'bagi4' with 4
+STORE 'bagi100' with 100
+STORE 'bagi400' with 400
+IF 'tahun' MOD 'bagi4' EQUALS TO 0 AND 'tahun' MOD 'bagi100' EQUALS TO 1 THEN 
+DISPLAY 'tahun ini adalah tahun kabisat'
+ELSE IF 'tahun' MOD 'bagi4' EQUALS TO 0 AND 'tahun' MOD 'bagi100' EQUALS TO 0 AND 'tahun' MOD 'bagi400 EQUALS TO 0 THEN
+DISPLAY 'tahun ini adalah tahun kabisat'
+ELSE
+DISPLAY 'tahun ini bukan tahun kabisat'
+END IF
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+3. LAUNDRY DISPLAY
+
+Algoritma
+
+1. Simpan nilai 0 di variabel 'jumlahLaundy'
+2. Ulangi step 3 selama 'jumlahLaundy' masih dibawah 20.
+   Jika 'jumlahLaundy' sudah 20 lanjut ke step 4
+3. Tambah 'jumlahLaundy' dengan 1, agar semakin mendekati
+   batas perulangan. Kembali ke step 2.
+4. Tampilkan 'Mesin cuci bisa dinyalakan'
+
+Pseudocode
+
+STORE 'jumlahLaundy' with 0
+WHILE ('jumlahLaundy' < 20)
+    ADD 'jumlahLaundy' by 1
+END WHILE
+DISPLAY 'Mesin cuci bisa dinyalakan'
+
+4. PERIKSA KUKU
+
+Algoritma
+
+1. Simpan nilai 0 di variabel 'jumlahMurid'
+2. Buat variabel 'panjangKuku' 
+3. Ulangi step 4 selama 'jumlahMurid' masih dibawah 40
+   Jika 'jumlahMurid' sudah 40 lanjut ke step 8
+4. Tambah 'jumlahMurid' dengan 1, agar semakin mendekati batas perulangan. Kembali ke step 3
+5. Masukkan bolean pada 'panjangKuku
+5. Apabila 'panjangKuku' bernilai true maka lanjut ke step 6. bila tidak lanjut ke step 7
+6. Tampilkan 'murid menerima pujian'
+7. Tampilkan 'murid menerima hukuman'
+8. Tampilkan 'semua murid telah diperiksa'
+
+Pseudocode
+
+STORE 'jumlahMurid' with 0
+STORE 'panjangKuku' without any value
+WHILE ('jumlahMurid' < 40) 
+ADD 'jumlahMurid' by 1
+SET 'panjangKuku' with any bolean value
+    IF 'panjangKuku' EQUALS TO  true THEN
+    DISPLAY 'murid menerima pujian'
+    ELSE 
+    DISPLAY 'murid menerima hukuman'
+    END IF
+END WHILE
+DISPLAY 'semua murid telah diperiksa'
