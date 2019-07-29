@@ -1,4 +1,4 @@
-var nama = 'arnold';
+var nama = '';
 var peran = '';
 if (nama !== '' && peran === 'ksatria') {
     console.log('Selamat datang di Dunia Proxytia, ' + nama);
@@ -17,14 +17,3 @@ if (nama !== '' && peran === 'ksatria') {
     console.log('Peran yang tersedia adalah ksatria, tabib dan penyihir');
     console.log('Masukkan kembali peran kamu!');
 }
-// } else {
-//     console.log('Nama harus diisi!');
-// }
-// if (peran === 'Ksatria') {
-//     console.log('Selamat datang di Dunia Proxytia, ' + nama);
-//     console.log('Halo ' + peran + nama , '\, kamu dapat menyeran dengan senjatamu!');
-// } else {
-//     console.log('Hai ' + nama , 'Pilih peran Ksatria, Tabib atau Penyihir')
-// }
-
-// console.log('Halo ' + nama , '\,Pilih peranmu untuk memulai game!');
