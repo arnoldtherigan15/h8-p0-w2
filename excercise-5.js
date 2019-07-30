@@ -30,7 +30,7 @@ console.log('Third Word: ' + thirdWord);
 console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
 
-// Breaking Sentence (Again) using Substring
+// 3. Breaking Sentence (Again) using Substring
 
 var word3 = 'wow Javascript is so cool';
 var exampleFirstWord3 = word3.substring(0,3);
