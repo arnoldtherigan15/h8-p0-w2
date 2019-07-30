@@ -1,0 +1,15 @@
+var nama = 'Arnold Therigan';
+var nameBaru = nama.replace('Therigan','Bramasta');
+var int = '100';
+var float = '3.14';
+var word1 = 'selamat ';
+var word2 = 'datang ';
+var word3 = 'di hacktiv8';
+var wordCombine = word1.concat(word2,word3);
+// console.log(nameBaru);
+// console.log(nama.length);
+// console.log(nama.charAt(1));
+// console.log(nama.toUpperCase());
+// console.log(nama.substr(0,6));
+// console.log(parseInt(float));
+console.log(wordCombine);
