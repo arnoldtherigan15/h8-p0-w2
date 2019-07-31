@@ -17,6 +17,17 @@ for (var i = 0; i<rows2; i++) {
     console.log(asteriks);
 }
 
+console.log('\ncara kedua \n');
+var asteriks = '';
+var rows = 5;
+for (var i = 0;  i < rows; i++) {
+    for (var j =0; j < rows; j++) {
+        asteriks += '*';
+    }
+    asteriks += '\n';
+}
+console.log(asteriks);
+
 // 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 
 console.log('\nTugas 3 \n');
@@ -28,3 +39,14 @@ for (var i = 0; i<rows3; i++) {
     }
     console.log(asteriks);
 }
+
+console.log('\ncara kedua \n');
+var asteriks = '';
+var rows = 5;
+for (var i = 0;  i < rows; i++) {
+    for (var j =0; j <= i; j++) {
+        asteriks += '*';
+    }
+    asteriks += '\n';
+}
+console.log(asteriks);
