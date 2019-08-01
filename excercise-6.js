@@ -30,29 +30,29 @@ console.log('\nTugas 3 \n');
 console.log('- ganjil genap -\n');
 for (var int = 1; int <= 100; int++) {
     if (int % 2 === 0) {
-        console.log('counter sekarang = ' + int + ' adalah GENAP');
+        console.log(int + ' adalah GENAP');
     } else {
-        console.log('counter sekarang = ' + int + ' adalah GANJIL');
+        console.log(int + ' adalah GANJIL');
     }
 }
 console.log('\n- untuk pertambahan counter 2-\n');
 for (var int1 = 1; int1 <= 100; int1 +=2) {
     if (int1 % 3 === 0) {
-        console.log('counter sekarang = ' + int1 + ' KELIPATAN 3');
+        console.log(int1 + ' KELIPATAN 3');
     } else {
     }
 }
 console.log('\n- untuk pertambahan counter 5-\n');
 for (var int2 = 1; int2 <= 100; int2 +=5) {
     if (int2 % 6 === 0) {
-        console.log('counter sekarang = ' + int2 + ' KELIPATAN 6');
+        console.log(int2 + ' KELIPATAN 6');
     } else {
     }
 }
 console.log('\n- untuk pertambahan counter 9-\n');
 for (var int3 = 1; int3 <= 100; int3 +=9) {
     if (int3 % 10 === 0) {
-        console.log('counter sekarang = ' + int3 + ' KELIPATAN 10');
+        console.log(int3 + ' KELIPATAN 10');
     } else {
     }
 }

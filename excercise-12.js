@@ -1,6 +1,6 @@
 // Logic Challenge - Konversi Menit
 
-function konversiMenit(num) { 
+function konversiMenit(menit) { 
     var jam = Math.floor(num / 60);    
     var menit = num % 60;
     if ( menit < 10) {
