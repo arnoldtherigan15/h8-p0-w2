@@ -32,7 +32,7 @@ switch (bulan) {
 }
 
 if (tanggal >=1 && tanggal <= 31 && tahun >=1900 && tahun <= 2200) {
-    console.log(tanggal , bulan , '' + tahun);
+    console.log(tanggal +' '+ bulan +' ' + tahun);
 } else {
     console.log('bulan salah');
 }
