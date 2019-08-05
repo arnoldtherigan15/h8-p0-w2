@@ -10,8 +10,8 @@ for (var rows1 = 5; rows1 >= 1; rows1--) {
 console.log('\nTugas 2 \n');
 var rows2 = 5;
 for (var i = 0; i<rows2; i++) {
-    var asteriks = '*';
-    for (var j = 1; j<rows2; j++) {
+    var asteriks = '';
+    for (var j = 0; j<rows2; j++) {
         asteriks = asteriks + '*';
     }
     console.log(asteriks);

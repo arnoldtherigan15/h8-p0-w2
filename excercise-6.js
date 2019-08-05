@@ -30,9 +30,9 @@ console.log('\nTugas 3 \n');
 console.log('- ganjil genap -\n');
 for (var int = 1; int <= 100; int++) {
     if (int % 2 === 0) {
-        console.log(int + ' adalah GENAP');
+        console.log('GENAP');
     } else {
-        console.log(int + ' adalah GANJIL');
+        console.log('GANJIL');
     }
 }
 console.log('\n- untuk pertambahan counter 2-\n');
